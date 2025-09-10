@@ -1,4 +1,6 @@
-from test_module import test_number_to_pair, test_pair_to_number
+import sys
+from tests_module import test_number_to_pair, test_pair_to_number
+from manual import build_reference_table
 
 if __name__ == '__main__':
   test_number_to_pair(4, 'White', 'Brown')
