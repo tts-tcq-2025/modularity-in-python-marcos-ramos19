@@ -1,5 +1,5 @@
 import sys
-from test_module import test_number_to_pair, test_pair_to_number
+from test_module import test_number_to_pair, test_pair_to_number, test_manual,output
 from manual_reference_table import build_reference_table
 
 if __name__ == '__main__':
