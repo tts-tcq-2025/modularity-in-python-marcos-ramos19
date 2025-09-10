@@ -1,5 +1,5 @@
 from colors import MAJOR_COLORS, MINOR_COLORS
-from translate import get_color_from_pair_number
+from pair_map import get_color_from_pair_number
 
 def build_reference_table():
   total = len(MAJOR_COLORS) * len(MINOR_COLORS)
